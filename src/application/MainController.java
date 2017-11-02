@@ -16,7 +16,7 @@ public class MainController {
 	@FXML
 	private TextField txtUserName;
 	
-	private void Login(ActionEvent event) {
+	public void Login(ActionEvent event) {
 		
 		if (txtUserName.getText().equals("username") && txtPassword.getText().equals("password")) {
 			lblStatus.setText("Login Success");
