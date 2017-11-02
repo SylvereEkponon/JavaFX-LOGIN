@@ -15,12 +15,12 @@
             <Font size="18.0" />
          </font>
       </Button>
-      <TextField layoutX="37.0" layoutY="78.0" promptText="User name">
+      <TextField fx:id="txtUserName" layoutX="37.0" layoutY="78.0" promptText="User name">
          <font>
             <Font size="18.0" />
          </font>
       </TextField>
-      <PasswordField layoutX="37.0" layoutY="131.0" promptText="Password">
+      <PasswordField fx:id="txtPassword" layoutX="37.0" layoutY="131.0" promptText="Password">
          <font>
             <Font size="18.0" />
          </font>
