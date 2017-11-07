@@ -4,16 +4,26 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.image.Image?>
 
-<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+<AnchorPane prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
    <children>
       <Button layoutX="111.0" layoutY="233.0" mnemonicParsing="false" onAction="#Login" text="Login">
          <font>
             <Font size="18.0" />
          </font>
+               <graphic>
+      <ImageView fitHeight="50.0" fitWidth="73.0">
+            <image>
+      <Image url="img/javafx_logo_color_1.jpg"></Image>
+      </image>
+      </ImageView>
+      </graphic>
       </Button>
+
       <TextField fx:id="txtUserName" layoutX="37.0" layoutY="78.0" promptText="User name">
          <font>
             <Font size="18.0" />
@@ -29,5 +39,10 @@
             <Font size="18.0" />
          </font>
       </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="295.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+      <Image url="img/javafx_logo_color_1.jpg"></Image>
+      </image>
+      </ImageView>
    </children>
 </AnchorPane>
